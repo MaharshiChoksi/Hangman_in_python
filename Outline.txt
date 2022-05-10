@@ -1,0 +1,16 @@
+
+            _________
+            |       |
+            |       O
+            |      /|\
+            |       |
+            |      /|\
+            |
+       -----------
+
+Player will have 6 chances to guess word.
+
+After every chance 1 part of hangman will be placed.
+
+if player gueses the word correctly then he/she will be 
+shown that the word is guessed correctly.
