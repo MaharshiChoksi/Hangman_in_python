@@ -91,7 +91,7 @@ def play():
             print(f"You have to guess a word, and to guess a word you will be given {lives} chances to guess correct word")
             print("Everytime, you opt in wrong word your chances will be reduced.")
             print("Get ready to play....")
-            while curr_guess < lives:
+            while curr_guess <= lives:
                 print(HangMan[curr_guess-1])
                 print(''.join(word_len))
                 print("Enter a letter: ", end="")
